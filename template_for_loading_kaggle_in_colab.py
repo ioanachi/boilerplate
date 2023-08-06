@@ -7,6 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/1AholO1PJrpZ5UhRnKYohKGNPx_PHEhvm
 """
 
+# ***
+!pwd   - in order to check the directory that you are in run 
+!ls    -lists all the folders and files in the current directory
+# ***
+
+
 from google.colab import files
 files.upload()
 
@@ -28,7 +34,7 @@ files.upload()
 dataset_name = "tourist55/alzheimers-dataset-4-class-of-images"
 
 
-# ! kaggle competitions download -c {competition_name}
+# !kaggle competitions download -c {competition_name}
 !kaggle datasets download  {dataset_name}
 
 
